@@ -293,13 +293,10 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Calendly Embed Placeholder */}
+            {/* Calendly Embed */}
             <div className="bg-slate-950/50 rounded-lg p-8 border border-slate-700">
               <p className="text-center text-slate-400 mb-6">Register for the next webinar:</p>
-              <div className="calendly-inline-widget" data-url="YOUR_CALENDLY_WEBINAR_LINK_HERE" style={{ minWidth: "320px", height: "630px" }}></div>
-              <p className="text-center text-sm text-slate-500 mt-4">
-                [Calendly embed will be configured with your webinar link]
-              </p>
+              <div className="calendly-inline-widget" data-url="https://calendly.com/dseils-ds/expert-diagnosis-webinar" style={{ minWidth: "320px", height: "630px" }}></div>
             </div>
           </div>
         </div>
@@ -437,10 +434,7 @@ export default function Home() {
 
           {/* Booking Form/Calendly */}
           <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
-            <div className="calendly-inline-widget" data-url="YOUR_CALENDLY_INTENSIVE_LINK_HERE" style={{ minWidth: "320px", height: "700px" }}></div>
-            <p className="text-center text-sm text-slate-500 mt-4">
-              [Calendly embed will be configured with your booking link + Stripe integration]
-            </p>
+            <div className="calendly-inline-widget" data-url="https://calendly.com/dseils-ds/board-meeting-intensive" style={{ minWidth: "320px", height: "700px" }}></div>
 
             <div className="mt-8 text-center">
               <p className="text-slate-400 mb-4">Or contact directly:</p>
